@@ -1,80 +1,85 @@
 body{
-  background-color: #2c2e38;
+  background-color: #a9514f;
 }
 
+h1 {
+    font: 80px 'BazarMedium';
+}
+
+#temperature{
+  padding-top: 60px;
+  color:#443c31;
+}
+
+#thermostat-body {
+  width: 600px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#443b34;
+  border: 3px solid #7b723b;
+  border-radius: 25px;
+}
+
+#display {
+  width: 300px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #e0c99f;
+  box-shadow: 1px 1px 0px #e0c99f;
+  border-radius: 25px;
+}
+
+#notification{
+  width: 10px;
+  height: 10px;
+  background: #5ea94f; /*a9794f orrange and 9c4547 for red*/
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
 .headding {
   text-align: center;
-  color: #d7ceb2;
-  text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
-  font: 80px 'BazarMedium';
+  color: #e0c99f;
+  text-shadow: 3px 2px 0px #433a31, 5px 5px 0px #a9514f;
   letter-spacing: 10px;
   text-decoration: none;
 }
 
-.powersavebutton {
-  background-color: #4D6938; /* Green */
-  border: none;
-  color: #d7ceb2;
-  padding: 15px 32px;
+.buttons {
+  width:420px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.small-button {
+  background-color: #443c31;
+  border: 2px solid #b2a160;
+  color: #b2a160;
+  padding: 15px 28px;
   text-align: center;
   border-radius: 25px;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-}
-
-.reset-button {
-  background-color: #5C1B0C; /* Green */
-  border: none;
-  color: #d7ceb2;
-  /*padding: 15px 32px;*/
-  text-align: center;
-  text-decoration: none;
-  width: 100%
-  height:100%;
-  padding-bottom: 100%
-  overflow:hidden;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 16px;
-}
-
-.burning {
-  text-align: center;
-	color: #fff;
-	text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
-	font: 80px 'BlackJackRegular';
+  font-size: 12px;
 }
 
 .round-button {
-    width:5%;
+  background-color: #443c31;
+  border: 2px solid #b2a160;
+  color: #b2a160;
+  padding: 15px 28px;
+  text-align: center;
+  border-radius: 100px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
 }
-.round-button-circle {
-    width: 100%;
-    height:0;
-    padding-bottom: 100%;
-   border-radius: 50%;
-    border:2px solid #BA962B ;
-   overflow:hidden;
 
-   background: #5C1A06 ;
-   box-shadow: 0 0 3px gray;
-}
-.round-button-circle:hover {
-    background:#30588e ;
-}
-.round-button a {
-   display:block;
-    float:left;
-    width:100%;
-    padding-top:50%;
-   padding-bottom:50%;
-    line-height:1em;
-    margin-top:-0.5em;
+/*to do - move notification light, add background texture, emboss buttons, make number font cooler, make button click animations*/
 
-    text-align:center;
-    color:#e2eaf3 ;
-   font-family:Verdana;
-   font-size:0.6em;
-   text-decoration:none;
-}
+

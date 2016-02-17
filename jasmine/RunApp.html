@@ -10,22 +10,22 @@
   </head>
 
   <body>
+    <h2 class="headding"> THE NEW AND IMPROVED </h2>
+    <h1 class="headding" >Thermostat 500</h1>
 
-    <h1 class="headding" >Thermostat</h1>
+    <div id="thermostat-body">
+      <div id="display">
+          <h1 id="temperature">20</h1>
+      </div>
+      <div class="buttons">
+          <button class="small-button" id="resetTemp" type="submit" value="savingOn">RESET</button>
+          <button class="round-button" id="down-arrow" type="submit" value="down">-</button>
+          <button class="round-button" id="up-arrow" type="submit" value="up">+</button>
+          <button class="small-button" id="saving-off" type="submit" value="savingOn">POWER SAVING</button>
+          <div id="notification"></div>
+      </div>
+    </div>
 
-    <h1 class="burning" id="temperature">20</h1>
-
-    <section>
-      <p>
-        <button id="up-arrow" type="submit" value="up">UP!</button>
-        <button id="down-arrow" type="submit" value="down">DOWN!</button>
-        <button class="reset-temp" id="resetTemp" type="submit" value="resetTemp"><span>RESET</span></button>
-        <button class="powersavebutton" id="saving-off" type="submit" value="savingOn">POWER SAVING</button>
-        <!-- <button id="saving-on" type="submit" value="savingOff">Power Saving Off!</button> -->
-      </p>
-    </section>
-
-    <div class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">Reset</a></div></div>
 
     <script>
 
